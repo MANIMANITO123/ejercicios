@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+        background-color: bisque;
+        }
+        .cen{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        }
+        h1{
+            font-size: 30px;
+            color: brown;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            color: red;
+            text-align: left;
+        }
+        .toc{
+            color: black;
+            font-size: 20px;
+            text-align: left;
+        }
+        header{
+            text-align: center;
+            color: blue;
+            font-size: 40px;
+            font-family: fantasy;
+        }
+        h2{
+            font-size: 30px;
+            color: orange;
+            text-align: center;
+        }
+        h3{
+            font-size: 30px;
+            color: green;
+            text-align: center;
+        }
+    
+    </style>
+    <header>EJERCICIOS JAVASCRIPT</header>
+    <section class="p1">
+
+    <h1>________</h1>
+        <h1>EJERCICIO 1</h1>
+    <img src="p1.jpg" class="cen" widht="80%">
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    Valor de X:
+                    <input type="number" name="a" id="a">
+                </td>
+            </tr>
+            <tr>
+                <td class="boton">
+                    <input type="button" value="EVALUAR" onclick="eva();"> 
+                </td>
+            </tr>
+        </table>
+    </form>
+    <h1>a)</h1>
+    <p>lado izquierdo igual a:</p>
+    <p id="ta" class="toc"></p>
+    <p>lado derecho igual a:</p>
+    <p id="te" class="toc"></p>
+    <p id="ti"></p>
+    <h1>b)</h1>
+    <p>lado izquierdo igual a:</p>
+    <p id="to" class="toc"></p>
+    <p>lado derecho igual a:</p>
+    <p id="tu" class="toc"></p>
+    <p id="tua"></p>
+    <script class="pr1" src="pr1.js">
+         
+    </script>
+    </section>
+    <section class="p2">
+        <h2>________</h2>
+        <h2>EJERCICIO 2</h2>
+        <img src="p2.jpg" class="cen" widht="80%">
+        <form action="">
+            <table>
+                <tr>
+                    <td>
+                        ALPHA ES IGUAL A:....  PI/
+                        <input type="number" name="b" id="b">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        BETA ES IGUAL A:.... PI/
+                        <input type="number" name="c" id="c">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="boton">
+                        <input type="button" value="EVALUAR" onclick="alf();"> 
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+        <h2>Resultado igual a:</h2>
+        <p>LADO IZQUIERDO IGUAL A:</p>
+        <p id="ra" class="toc"></p>
+        <P>LADO DERECHO IGUAL A:</P>
+        <p id="re" class="toc"></p>
+        <p id="ri"></p>
+
+        <script class="pr2" src="pr2.js">
+
+        </script>
+    </section>
+    <section class="p3">
+        <h3>________</h3>
+        <h3>EJERCICIO 3</h3>
+        <img src="p3.jpg" class="cen" width="80%">
+        <form action="">
+            <table>
+                <tr>
+                    <td>
+                        INTRODUCIR VALOR DE A:  
+                        <input type="number" name="x" id="x">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        INTRODUCIR VALOR DE B: 
+                        <input type="number" name="y" id="y">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="boton">
+                        <input type="button" value="EVALUAR" onclick="elipse();"> 
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <h3>EL PERIMETRO DE LA ELIPSE ES IGUAL A:</h3>
+        <p id="ko" class="toc"></p>
+        <script class="pr3" src="pr3.js">
+
+        </script>
+
+    </section>
+</body>
+</html>
